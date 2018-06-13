@@ -1,0 +1,7 @@
+org/springframework/boot/actuate/hypermedia/EndpointDocumentation$1.class
+org/springframework/boot/actuate/hypermedia/HealthEndpointDocumentation.class
+org/springframework/boot/actuate/hypermedia/HypermediaEndpointDocumentation.class
+org/springframework/boot/actuate/hypermedia/SpringBootHypermediaApplication.class
+org/springframework/boot/actuate/hypermedia/EndpointDocumentation$EndpointDoc.class
+org/springframework/boot/actuate/hypermedia/EndpointDocumentation$2.class
+org/springframework/boot/actuate/hypermedia/EndpointDocumentation.class

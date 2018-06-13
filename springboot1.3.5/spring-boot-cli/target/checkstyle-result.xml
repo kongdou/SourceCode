@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.10.1">
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/app/SpringApplicationWebApplicationInitializer.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/app/SpringApplicationLauncher.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/archive/PackagedSpringApplicationLauncher.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/archive/package-info.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/util/Log.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/util/ResourceUtils.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/DefaultCommandFactory.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/grab/GrabCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/InitializrService.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/InitializrServiceMetadata.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/ProjectGenerationResponse.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/ProjectGenerationRequest.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/ProjectType.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/ReportableException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/ServiceCapabilitiesReportGenerator.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/InitCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/ProjectGenerator.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/init/Dependency.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/options/SourceOptions.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/options/OptionHandler.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/options/OptionHelp.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/options/CompilerOptionHandler.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/options/OptionSetGroovyCompilerConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/OptionParsingCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/NoSuchCommandException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/NoArgumentsException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/install/UninstallCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/install/DependencyResolver.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/install/InstallCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/install/Installer.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/install/GroovyGrabDependencyResolver.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/core/HelpCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/core/VersionCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/core/HintCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/CommandException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/archive/JarCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/archive/ArchiveCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/archive/ResourceMatcher.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/archive/WarCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/test/TestCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/test/TestRunner.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/test/TestRunnerConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/test/TestFailedException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ShellPrompts.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/PromptCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ShellCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ShellExitException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ForkProcessCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ClearCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/Shell.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/EscapeAwareWhiteSpaceArgumentDelimiter.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/CommandCompleter.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ExitCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/RunProcessCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/AnsiString.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/AbstractCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/Command.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/CommandRunner.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/status/ExitStatus.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/HelpExample.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/NoHelpCommandArgumentsException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/run/SpringApplicationRunnerConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/run/RunCommand.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/run/SpringApplicationRunner.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/CommandFactory.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/SpringCli.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/AstUtils.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/RepositoryConfigurationFactory.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/GroovyBeansTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/maven/MavenSettings.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/maven/MavenSettingsReader.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/AnnotatedNodeASTTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/DependencyCustomizer.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/GroovyCompilerScope.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/DependencyAutoConfigurationTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/ArtifactCoordinatesResolver.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/SpringBootDependenciesDependencyManagement.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/MavenModelDependencyManagement.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/CompositeDependencyManagement.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/DependencyManagementArtifactCoordinatesResolver.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/DependencyManagement.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/dependencies/Dependency.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/SmartImportCustomizer.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/SpringBootAstTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/DependencyManagementBomTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/ResolveDependencyCoordinatesTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/JdbcCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/TransactionManagementCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/JmsCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringMvcCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringIntegrationCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringBatchCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringMobileCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/ReactorCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringSocialFacebookCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringSecurityOAuth2CompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringRetryCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpockCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringBootCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringSocialLinkedInCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringWebsocketCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/RabbitCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringTestCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/JUnitCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringSecurityCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/SpringSocialTwitterCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/GroovyTemplatesCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/autoconfigure/CachingCompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/GroovyCompiler.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/GrapeRootRepositorySystemSessionAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/AetherGrapeEngineFactory.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/DefaultRepositorySystemSessionAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/AetherGrapeEngine.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SummaryProgressReporter.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/ProgressReporter.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/DetailedProgressReporter.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/RepositoryConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/RepositorySystemSessionAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/GrapeEngineInstaller.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/DependencyResolutionContext.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/DependencyResolutionFailedException.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/CompositeProxySelector.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/CompilerAutoConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/GenericBomAstTransformation.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/ExtendedGroovyClassLoader.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/GroovyCompilerConfiguration.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/groovy/GroovyTemplate.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/groovy/DelegateTestRunner.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/groovy/DependencyManagementBom.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/groovy/EnableDeviceResolver.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/groovy/EnableGroovyTemplates.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/main/java/org/springframework/boot/groovy/package-info.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/DirectorySourcesIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/SampleIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/CliTester.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/app/SpringApplicationLauncherTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/util/ResourceUtilsTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/util/OutputCapture.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/util/SystemProperties.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/ClassLoaderIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/TestCommandIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/init/ServiceCapabilitiesReportGeneratorTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/init/AbstractHttpClientMockTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/init/InitializrServiceMetadataTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/init/InitializrServiceTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/init/InitCommandTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/init/ProjectGenerationRequestTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/install/GroovyGrabDependencyResolverTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/install/InstallerTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/archive/ResourceMatcherTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/test/TestRunnerTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/shell/EscapeAwareWhiteSpaceArgumentDelimiterTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/CommandRunnerIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/CommandRunnerTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/run/SpringApplicationRunnerTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/command/OptionParsingCommandTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/ReproIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/GrabCommandIntegrationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/GenericBomAstTransformationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/ExtendedGroovyClassLoaderTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/ResolveDependencyCoordinatesTransformationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/dependencies/SpringBootDependenciesDependencyManagementTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/dependencies/DependencyManagementArtifactCoordinatesResolverTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/dependencies/CompositeDependencyManagementTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/RepositoryConfigurationFactoryTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/DependencyCustomizerTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/grape/DetailedProgressReporterTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/grape/GrapeRootRepositorySystemSessionAutoConfigurationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfigurationTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/org/springframework/boot/cli/compiler/grape/AetherGrapeEngineTests.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/cli/command/CustomCommandFactory.java">
+</file>
+<file name="/Users/deepsky/GitHub/sourcecode-stu/springboot1.3.5/spring-boot-cli/src/test/java/cli/command/CustomCommand.java">
+</file>
+</checkstyle>
